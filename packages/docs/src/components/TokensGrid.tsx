@@ -13,7 +13,6 @@ export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
           {hasRemValue && <th>Pixels</th>}
         </tr>
       </thead>
-
       <tbody>
         {Object.entries(tokens).map(([key, value]) => {
           return (
