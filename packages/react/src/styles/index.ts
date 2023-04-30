@@ -6,7 +6,7 @@ import {
   radii,
   space,
   colors,
-} from '@ignite-ui/tokens'
+} from '@wagnercos-ignite-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
