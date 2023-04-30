@@ -1,5 +1,10 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@wagnercos-ignite-ui/react'
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from '@wagnercos-ignite-ui/react'
 
 export default {
   title: 'Form/Text Input',
@@ -24,7 +29,7 @@ export default {
 
 export const Default: StoryObj<TextInputProps> = {
   args: {
-    placeholder: 'Digite o seu nome',
+    placeholder: 'Type your name',
   },
 }
 
@@ -37,5 +42,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
+    placeholder: 'your-username',
   },
 }
