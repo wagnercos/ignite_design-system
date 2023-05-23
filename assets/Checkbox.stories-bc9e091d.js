@@ -1,0 +1,4 @@
+import{j as s}from"./jsx-runtime-6eef64cc.js";import{C as c,B as m,T as i}from"./index-05b5bbd5.js";import"./index-c013ead5.js";import"./_commonjsHelpers-725317a4.js";import"./extends-98964cd2.js";import"./index-169ee69c.js";const f={title:"Form/Checkbox",component:c,args:{},tags:["autodocs"],decorators:[a=>s.jsxs(m,{as:"label",css:{display:"flex",flexDirection:"row",gap:"$3",alignItems:"center"},children:[s.jsx(a,{}),s.jsx(i,{size:"sm",children:"Item"})]})]},r={args:{}};var e,o,t;r.parameters={...r.parameters,docs:{...(e=r.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  args: {}
+}`,...(t=(o=r.parameters)==null?void 0:o.docs)==null?void 0:t.source}}};const g=["Default"];export{r as Default,g as __namedExportsOrder,f as default};
+//# sourceMappingURL=Checkbox.stories-bc9e091d.js.map
